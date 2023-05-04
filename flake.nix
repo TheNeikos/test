@@ -120,7 +120,7 @@
                   )
               )
 
-              assert expected != actual, "table query returns expected content"
+              assert expected == actual, "table query returns expected content"
             '';
           });
       in
